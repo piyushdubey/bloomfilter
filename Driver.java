@@ -22,7 +22,7 @@ public class Driver {
 
         System.out.println("Contains " + caterpillar + " before adding: " + bf.contains(caterpillar));
         bf.add(caterpillar);
-        System.out.println("Contains " + banana + " after adding: " + bf.contains(caterpillar));
+        System.out.println("Contains " + caterpillar + " after adding: " + bf.contains(caterpillar));
 
 
         // Test against a set of 500 random words

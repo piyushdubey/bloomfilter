@@ -1,5 +1,5 @@
 # bloomfilter
-A simple implementation of a Bloom filters
+A simple implementation of Bloom filters
 
 ## Run
 ```

@@ -59,7 +59,7 @@ public class BloomFilter {
     private static List<Integer> getBitIndices(int stringHash) {
         List<Integer> bitIndices = new ArrayList<>();
         bitIndices.add((int) Math.floorMod(stringHash, DEFAULT_FILTER_SIZE));
-        bitIndices.add((int) Math.floorMod(stringHash, DEFAULT_FILTER_SIZE/2));
+        bitIndices.add((int) Math.floorMod(stringHash, DEFAULT_FILTER_SIZE/4));
         bitIndices.add((int) Math.floorMod(stringHash, DEFAULT_FILTER_SIZE/3));
 
         return bitIndices;
